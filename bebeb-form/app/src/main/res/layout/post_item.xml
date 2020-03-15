@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Number 1 Post Title" />
+
+    <TextView
+        android:id="@+id/userTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/colorText"
+        android:textSize="12sp"
+        tools:text="User 1" />
+
+    <TextView
+        android:id="@+id/bodyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        tools:text="This is body number 1" />
+
+</LinearLayout>
